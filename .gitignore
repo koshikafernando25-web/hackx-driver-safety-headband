@@ -1,0 +1,15 @@
+ 
+# Arduino / ESP32 build artifacts
+/firmware/build/
+/firmware/libraries/
+*.hex
+*.elf
+
+# Environment secrets (Crucial for your OpenWeather API key!)
+.env
+config.json
+secrets.json
+
+# OS files
+.DS_Store
+Thumbs.db
